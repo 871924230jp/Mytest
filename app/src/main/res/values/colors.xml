@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--newsclient-->
+    <color name="title_color">#332f2f</color>
+    <color name="desc_color">#817C7C</color>
+    <color name="type_color">#C72222</color>
+
+    <color name="color_Maincolor">#696979</color>
+
+
+
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="5dp">
+
+    <!--<ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_centerVertical="true"/>-->
+    <com.example.newsclient_project1_myimageview_intent.myview.MyImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/myiv_image"
+        android:src="@mipmap/ic_launcher_round"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/myiv_image"
+        android:layout_marginLeft="@dimen/margin_between_views_with_lr"
+        android:text=""
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="@dimen/title_font_size"
+        android:textColor="@color/title_color"
+        />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+
+        android:layout_marginLeft="@dimen/margin_between_views_with_lr"
+        android:layout_marginTop="@dimen/margin_between_views_with_tb"
+        android:layout_marginBottom="-2dp"
+        android:layout_toRightOf="@id/myiv_image"
+        android:maxLines="2"
+        android:text=""
+        android:textColor="@color/desc_color"
+
+        android:textSize="@dimen/desc_font_size" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_type"
+        android:text=""
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/tv_desc"
+        android:textSize="@dimen/type_font_size"
+        android:textColor="@color/type_color"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_between_views_with_lr">5dp</dimen>
+    <dimen name="title_font_size">20dp</dimen>
+    <dimen name="margin_between_views_with_tb">2dp</dimen>
+    <dimen name="desc_font_size">18dp</dimen>
+    <dimen name="type_font_size">15dp</dimen>
+
+
+</resources>
